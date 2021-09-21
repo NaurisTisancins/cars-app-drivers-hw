@@ -12,6 +12,8 @@ function Header(){
       <NavLink to="/">Home</NavLink>
       <NavLink to="/cars/add">Add Car</NavLink>
       <NavLink to="/spectators">Spectators</NavLink>
+      <NavLink to="/drivers">Drivers</NavLink>
+      <NavLink to="/drivers/add">Add Driver</NavLink>
     </nav>
   </header>
   );

@@ -32,7 +32,10 @@ function CarsList() {
                 <p>
                   {name} ({bhp} bhp)
                 </p>
-                <Link to={`/cars/update/${_id}`} className="update-link">Update</Link>
+                  <Link
+                     to={`/cars/update/${_id}`} className="update-link">
+                     Update
+                  </Link>
                 <button onClick={() => deleteCar(_id)} className="delete-btn">Delete</button>
               </li>
             ))}
